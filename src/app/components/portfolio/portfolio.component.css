@@ -1,0 +1,70 @@
+.PORTFOLIO .container h1{
+color: #2c3e50 !important;
+font-weight: 700;
+font-size: 50px;
+
+}
+.fa-star{
+color: #2c3e50 !important;
+
+}
+.PORTFOLIO{
+    position: relative;
+}
+
+/* .fa-star::after{
+    content: "";
+    position: absolute;
+    width: 120px;
+    height: 5px;
+    background-color: #2c3e50 !important;
+    left: 600px;
+    bottom: 580px;
+}
+
+.PORTFOLIO .container h1::after{
+    content: "";
+    position: absolute;
+    width: 120px;
+    height: 5px;
+    background-color: #2c3e50;
+    left: 800px;
+    bottom:  580px;
+} */
+.col-md-4{
+    /* padding-left: 80px !important; */
+}
+.layout{
+    /* width: 290px;
+    height: 208px; */
+     /* bottom: 73px; */
+    width: 75%;
+    height: 100%;
+    background-color: #1abc9c !important;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    /* display: none; */
+    transition: all 0.5s;
+
+}
+.imgs{
+    cursor: pointer;
+
+}
+.fa-plus{
+    left: 128px;
+    top: 80px;
+    font-size: 50px;
+    position: absolute;
+}
+.imgs:hover .layout{
+    opacity: 0.8;
+    /* display: inline-block; */
+
+}
+
+
+
+
+

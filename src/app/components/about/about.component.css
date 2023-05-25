@@ -1,0 +1,57 @@
+
+.ABOUT .container h1{
+    color: white !important;
+    font-weight: 700;
+    font-size: 50px;
+    margin-top: 50px;
+
+    
+    }
+    .fa-star{
+    color: white !important;
+    
+    }
+    .ABOUT{
+        position: relative;
+        background-color: #1abc9c !important;
+        margin-top: 100px !important;
+        height: 70vh;
+       
+    }
+    
+    .fa-star::after{
+        content: "";
+        position: absolute;
+        width: 120px;
+        height: 5px;
+        background-color: white !important;
+        left: 610px;
+        bottom:300px;
+    }
+    
+    .ABOUT .container h1::after{
+        content: "";
+        position: absolute;
+        width: 120px;
+        height: 5px;
+        background-color: white;
+        left: 800px;
+        bottom:300px;
+    }
+
+
+    .ml-auto{
+        margin-left: auto !important;
+    }
+    .mr-auto{
+        margin-right: auto !important;
+    }
+  
+    .lead{
+        font-size: 1.25rem;
+        font-weight: 300;
+    }
+    p{
+        margin-top: 0;
+        margin-bottom: 1rem;
+    }
